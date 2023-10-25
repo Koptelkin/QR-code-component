@@ -16,13 +16,19 @@ html {
     text-align: center;
 }
 
-.container {
+
+main {
+    height: 100vh;
     margin: 0 auto;
-    width: 270px;
-    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
 }
 
 .wrapper {
+    max-width: 270px;
     background-color: var(--inner);
     border-radius: 15px;
     padding: 15px;
